@@ -11,6 +11,7 @@ public class Warrior extends Hero{
 
     @Override
     public String applySuperAbility(String SuperAbilityType) {
-        return "Warrior is using Critical Damage";
+        return "Warrior" + SuperAbilityType + "Critical Damage";
     }
 }
+
