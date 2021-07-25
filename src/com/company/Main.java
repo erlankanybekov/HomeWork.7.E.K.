@@ -13,6 +13,6 @@ public class Main {
         }
     }
     public static void AllPowers(HavingSuperAbility havingSuperAbility){
-        System.out.println(havingSuperAbility.applySuperAbility(""));
+        System.out.println(havingSuperAbility.applySuperAbility(" is using Power: "));
     }
 }
