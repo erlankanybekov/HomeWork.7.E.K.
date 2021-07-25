@@ -11,7 +11,7 @@ public class Magic extends Hero{
 
     @Override
     public String applySuperAbility(String SuperAbilityType) {
-        return "Magic is using Fireball";
+        return "Magic" + SuperAbilityType + "Fireball";
     }
 }
 
