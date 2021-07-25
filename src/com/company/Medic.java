@@ -13,6 +13,6 @@ public class Medic extends Hero{
 
     @Override
     public String applySuperAbility(String SuperAbilityType) {
-        return "Medic is Healing everyone";
+        return "Medic" + SuperAbilityType + "Healing";
     }
 }
